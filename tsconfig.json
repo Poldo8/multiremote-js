@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./build",
+    "types": ["@wdio/sync", "@wdio/cucumber-framework", "node"]
+  },
+  "include": [
+    "./**/*.ts", "wdio.conf.js"
+  ],
+  "compileOnSave": false
+}
